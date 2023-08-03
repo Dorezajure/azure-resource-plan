@@ -1,6 +1,6 @@
 :root {
     --numDays: 5;
-    --numHours: 10;
+    --numHours: 4;
     --timeHeight: 60px;
     --calBgColor: #fff1f8;
     --eventBorderColor: #f2d3d8;
@@ -9,13 +9,15 @@
     --eventColor3: #e2f8ff;
     --eventColor4: #d1ffe6;
 }
+// На одного человека приходиться 5 разбитых ячеек, так сказать на 5 проектов в которых 1 участвует. 
+// 5 ячеек занимают 300px 
 
 .calendar {
     display: grid;
     gap: 10px;
     grid-template-columns: auto 1fr;
     margin: 2rem;
-    max-width: 1070px;
+    min-width: 1070px;
     margin-left: 170px;
 }
 

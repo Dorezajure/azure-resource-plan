@@ -1,7 +1,10 @@
+import '../sass/rightblock.scss';
+
 const RightBlock = () => {
     return ( 
-        <div className="blockright">
-            
+        <div>
+            <div className="blockright">
+            </div>
         </div>
     );
 }

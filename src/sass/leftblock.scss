@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 .block {
     display: block;
-    position: fixed;
+    position: absolute;
     width: 170px;
-    height: 670px;
+    height: 930px;
     background-color: #2F76E6;
+    margin-top: 10px;
 }
 
 .block_components {
@@ -17,8 +15,8 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 62px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 240px;
 }
 
 .photo {
