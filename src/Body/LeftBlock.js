@@ -7,15 +7,15 @@ const LeftBlock = () => {
         <div>
             <div className="block">
                 <div className="block_components">
-                    <img className='photo' src={photo} alt="photo" />
+                    <img className='photo' src={photo} alt="" />
                     <p className='text'>Павел Копатев</p>
                 </div>
                 <div className="block_components">
-                    <img className='photo' src={photo} alt="photo" />
+                    <img className='photo' src={photo} alt="" />
                     <p className='text'>Павел Копатев</p>
                 </div>
                 <div className="block_components">
-                    <img className='photo' src={photo} alt="photo" />
+                    <img className='photo' src={photo} alt="" />
                     <p className='text'>Павел Копатев</p>
                 </div>
             </div>

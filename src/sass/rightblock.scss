@@ -11,3 +11,48 @@
     margin-right: 10px;
     border-radius: 15px;
 }
+
+.container {
+    display: flex;
+    margin: 20px 20px 40px 20px;
+}
+
+.circle {
+    padding-right: 10px;
+}
+
+.name {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+.color {
+    width: 75px;
+    height: 13px;
+    flex-shrink: 0;
+}
+
+#colorone {
+    background: #FF6B00;
+}
+
+#colortwo {
+    background: #EBFF00;
+}
+
+#colorthree {
+    background: #14FF00;
+}
+
+#colorfour {
+    background: #FF003D;
+}
+
+#dayoff {
+    background: #00FFD1;
+}

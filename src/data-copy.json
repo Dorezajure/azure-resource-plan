@@ -1,0 +1,27 @@
+{
+    "peoples": [
+        {
+            "id": 1,
+            "photo": "",
+            "name": "",
+            "intervals": [
+                {
+                    "dateStart": "",
+                    "dateEnd": "",
+                    "projects": [
+                        { "name": "", "color": "", "completeWork": 20 }
+                    ]
+                }
+            ]
+        },
+        {
+            "product": "MaxBonus"
+        },
+        {
+            "product": "Феникс"
+        },
+        {
+            "product": "beyondreal"
+        }
+    ]
+}
