@@ -25,8 +25,6 @@ const Select = () => {
                 </select>
                 <form className="select">
                     <input type="date" list="dateList" id="dateInput"/>
-                    <datelist id="dateList">
-                    </datelist>
                 </form>
                 <select className="select">
                     <option value="День">День</option>

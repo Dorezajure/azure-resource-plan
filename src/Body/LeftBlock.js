@@ -3,7 +3,6 @@ import photo from '../img/photo.png';
 import '../sass/reset.scss';
 
 const LeftBlock = () => {
-    
     return ( 
         <div>
             <div className="block">
