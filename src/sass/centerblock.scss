@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
+
 :root {
     --numDays: 5;
-    --numHours: 4;
+    --numHours: 5;
     --timeHeight: 60px;
     --calBgColor: #fff1f8;
     --eventBorderColor: #f2d3d8;
@@ -9,16 +11,52 @@
     --eventColor3: #e2f8ff;
     --eventColor4: #d1ffe6;
 }
-// На одного человека приходиться 5 разбитых ячеек, так сказать на 5 проектов в которых 1 участвует. 
-// 5 ячеек занимают 300px 
+// На одного человека приходиться 5 разбитых ячеек, так сказать на 5 проектов в которых 1 участвует.
+// 5 ячеек занимают 300px
+
+.blk {
+    display: flex;
+}
+
+.block {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 930px;
+    background-color: #2F76E6;
+    margin-top: 10px;
+}
+
+.block_components {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    background-color: #2F76E6;
+}
+
+.photo {
+    margin-bottom: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.text {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 .calendar {
     display: grid;
     gap: 10px;
     grid-template-columns: auto 1fr;
-    margin: 2rem;
+    margin: 1.5rem;
     min-width: 1070px;
-    margin-left: 170px;
 }
 
 .days {
@@ -71,8 +109,6 @@
     grid-row-end: 9;
 }
 
-
-
 .title {
     font-weight: 600;
     margin-bottom: 0.25rem;
@@ -88,10 +124,8 @@
 
 .space,
 .date {
-    height: 60px
+    height: 60px;
 }
-
-
 
 body {
     font-family: system-ui, sans-serif;

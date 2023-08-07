@@ -1,48 +1,49 @@
-import '../sass/rightblock.scss';
-import img from '../img/ellipse.svg';
+import React from "react";
+import "../sass/rightblock.scss";
+import img from "../img/ellipse.svg";
 
 const RightBlock = () => {
-    return ( 
+    return (
         <div>
             <div className="blockright">
                 <div className="container">
-                    <img className='circle' src={img} alt="" />
+                    <img className="circle" src={img} alt="" />
                     <div className="nameandcolor">
                         <p className="name">RoboMarket</p>
-                        <div className="color" id='colorone'></div>
-                        </div>
+                        <div className="color" id="colorone"></div>
                     </div>
-                    <div className="container">
-                    <img className='circle' src={img} alt="" />
+                </div>
+                <div className="container">
+                    <img className="circle" src={img} alt="" />
                     <div className="nameandcolor">
                         <p className="name">RoboMarket</p>
-                        <div className="color" id='colortwo'></div>
-                        </div>
+                        <div className="color" id="colortwo"></div>
                     </div>
-                    <div className="container">
-                    <img className='circle' src={img} alt="" />
+                </div>
+                <div className="container">
+                    <img className="circle" src={img} alt="" />
                     <div className="nameandcolor">
                         <p className="name">RoboMarket</p>
-                        <div className="color" id='colorthree'></div>
-                        </div>
+                        <div className="color" id="colorthree"></div>
                     </div>
-                    <div className="container">
-                    <img className='circle' src={img} alt="" />
+                </div>
+                <div className="container">
+                    <img className="circle" src={img} alt="" />
                     <div className="nameandcolor">
                         <p className="name">RoboMarket</p>
-                        <div className="color" id='colorfour'></div>
-                        </div>
+                        <div className="color" id="colorfour"></div>
                     </div>
-                    <div className="container">
-                    <img className='circle' src={img} alt="" />
+                </div>
+                <div className="container">
+                    <img className="circle" src={img} alt="" />
                     <div className="nameandcolor">
                         <p className="name">Day off</p>
-                        <div className="color" id='dayoff'></div>
-                        </div>
+                        <div className="color" id="dayoff"></div>
                     </div>
                 </div>
             </div>
+        </div>
     );
-}
+};
 
 export default RightBlock;

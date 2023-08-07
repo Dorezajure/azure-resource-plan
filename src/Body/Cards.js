@@ -1,25 +1,18 @@
-import { useState } from "react";
+import React from "react";
 import "../sass/centerblock.scss";
 
-const Cards = () => {
-    // Создаем состояние
-    const [product, setProduct] = useState();
-
-    // Функция чтобы задать рандомное число для часов работы
-    const getRandomHours = () => {
-        return Math.floor(Math.random() * 40) + 1;
-    };
+const Cards = (props) => {
+    // Получаем с пропсов данные
+    const { name, completeWork } = props.project;
 
     return (
-        <div className="event start-12 end-1 writing">
-            <p
-                className="title"
-                value={product}
-                onChange={(e) => {
-                    setProduct(e.target.value);
-                }}
-            ></p>
-            <p className="time">{getRandomHours()} hours</p>
+        <div>
+            <div className="event start-12 end-1 writing">
+                <div>
+                    <p className="title">{name}</p>
+                    <p className="time">{completeWork} hours</p>
+                </div>
+            </div>
         </div>
     );
 };

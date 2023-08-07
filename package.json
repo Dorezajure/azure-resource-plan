@@ -8,6 +8,7 @@
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
+        "date-fns": "^2.30.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
@@ -23,8 +24,14 @@
     "eslintConfig": {
         "extends": [
             "react-app",
-            "react-app/jest"
-        ]
+            "react-app/jest",
+            "eslint:recommended",
+            "plugin:react/recommended"
+        ],
+        "rules": {
+            "plugin:react/jsx-runtime": 0,
+            "react/prop-types": 0
+        }
     },
     "browserslist": {
         "production": [
@@ -39,6 +46,8 @@
         ]
     },
     "devDependencies": {
-        "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "eslint": "^8.46.0",
+        "eslint-plugin-react": "^7.33.1"
     }
 }
