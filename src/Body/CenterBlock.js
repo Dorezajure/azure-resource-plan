@@ -16,9 +16,7 @@ const CenterBlock = () => {
         // set state
         setPeoples(textData.peoples);
     }, []);
-
-    console.log("do render");
-
+    
     return (
         <div className="fpdgp">
             {peoples.map((people) => (
