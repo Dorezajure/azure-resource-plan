@@ -6,13 +6,18 @@
             "name": "Игорь Яковлев",
             "intervals": [
                 {
-                    "dateStart": "01.07.2023",
-                    "dateEnd": "01.07.2023",
+                    "dateStart": "2023-07-01",
+                    "dateEnd": "2023-07-07",
                     "projects": [
                         {
                             "name": "Robymarket",
                             "color": "#FF6B00",
-                            "completeWork": 20
+                            "completeWork": 40
+                        }, 
+                        {
+                            "name": "Roby",
+                            "color": "#FFFF99",
+                            "completeWork": 10
                         }
                     ]
                 }
@@ -24,13 +29,13 @@
             "name": "Максим Старовойтов",
             "intervals": [
                 {
-                    "dateStart": "04.07.2023",
-                    "dateEnd": "06.07.2023",
+                    "dateStart": "2023-07-04",
+                    "dateEnd": "2023-07-08",
                     "projects": [
                         {
                             "name": "Roby",
-                            "color": "#FF6B00",
-                            "completeWork": 20
+                            "color": "#FFFF99",
+                            "completeWork": 10
                         }
                     ]
                 }
@@ -42,13 +47,13 @@
             "name": "Елена Королева",
             "intervals": [
                 {
-                    "dateStart": "13.07.2023",
-                    "dateEnd": "18.07.2023",
+                    "dateStart": "2023-07-06",
+                    "dateEnd": "2023-07-13",
                     "projects": [
                         {
-                            "name": "Robymarket",
-                            "color": "#FF6B00",
-                            "completeWork": 20
+                            "name": "RobSSSS",
+                            "color": "#343F24",
+                            "completeWork": 50
                         }
                     ]
                 }
@@ -60,13 +65,13 @@
             "name": "Дмитрий Носов",
             "intervals": [
                 {
-                    "dateStart": "17.07.2023",
-                    "dateEnd": "22.07.2023",
+                    "dateStart": "2023-07-05",
+                    "dateEnd": "2023-07-30",
                     "projects": [
                         {
-                            "name": "Robymarket",
-                            "color": "#FF6B00",
-                            "completeWork": 20
+                            "name": "Market",
+                            "color": "#30D5C8",
+                            "completeWork": 35
                         }
                     ]
                 }
